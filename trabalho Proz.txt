@@ -1,0 +1,10 @@
+nome = str (input("Digite o seu nome: "))
+ano_nasc = int (input("Digite o ano de seu nascimento: "))
+idade = 2022 - ano_nasc
+if (ano_nasc < 1922) or (ano_nasc > 2022):
+  print("Por favor, repita a operação:" )
+else:
+  print(nome, "voce tem", idade, "anos" )
+
+
+
